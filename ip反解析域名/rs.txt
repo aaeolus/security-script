@@ -1,0 +1,1079 @@
+# Nmap 7.01 scan initiated Mon Aug  5 18:32:01 2019 as: nmap --min-hostgroup 1024 -iL url.txt -oN rs.txt
+Failed to resolve "5ad8wny3782u3h8a.chat.bilibili.com".
+Failed to resolve "bilibiliwww.bilibili.com".
+Failed to resolve "g.bilibili.com".
+Failed to resolve "h.bilibili_com".
+Failed to resolve "ios.bilibili.com".
+Failed to resolve "live-api.bilibili.com".
+Failed to resolve "planet2017.bilibili.com".
+Failed to resolve "pl.bilibili.com".
+Failed to resolve "push.message.bilibili.com".
+Failed to resolve "push-msg.bilibili.com".
+Failed to resolve "push-pay.bilibili.com".
+Failed to resolve "tx-live-dmcmt-gzhs-01.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-gzhs-02.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-gzhs-03.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-gzhs-04.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-gzhs-05.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-hk-01.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-shhs-01.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-shhs-02.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-shhs-03.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-shhs-04.chat.bilibili.com".
+Failed to resolve "tx-live-dmcmt-shhs-05.chat.bilibili.com".
+Failed to resolve "www.api.live.bilibili.com".
+Failed to resolve "www.api.vc.bilibili.com".
+Failed to resolve "www.bilibili_com".
+Failed to resolve "www.fsmdkj.com-www.bilibili.com".
+Failed to resolve "www.game.bilibili.com".
+Failed to resolve "www.inter.comment.bilibili.com".
+Failed to resolve "www.security.bilibili.com".
+Failed to resolve "www.service.bilibili.com".
+Failed to resolve "www.show.bilibili.com".
+Failed to resolve "www.s.search.bilibili.com".
+Nmap scan report for account.bilibili.com (120.92.147.239)
+Host is up (0.0045s latency).
+Other addresses for account.bilibili.com (not scanned): 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 119.3.33.86 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 106.75.240.150 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for account-img.bilibili.com (120.92.143.168)
+Host is up (0.0047s latency).
+Other addresses for account-img.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for activity.bilibili.com (119.3.70.188)
+Host is up (0.0086s latency).
+Other addresses for activity.bilibili.com (not scanned): 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103
+rDNS record for 119.3.70.188: ecs-119-3-70-188.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for api.bilibili.com (106.75.240.103)
+Host is up (0.0050s latency).
+Other addresses for api.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for apigame.bilibili.com (106.75.240.128)
+Host is up (0.0057s latency).
+Other addresses for apigame.bilibili.com (not scanned): 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for api.live.bilibili.com (120.92.168.51)
+Host is up (0.0053s latency).
+Other addresses for api.live.bilibili.com (not scanned): 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for api.vc.bilibili.com (119.3.33.86)
+Host is up (0.0072s latency).
+Other addresses for api.vc.bilibili.com (not scanned): 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116
+rDNS record for 119.3.33.86: ecs-119-3-33-86.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for App.bilibili.com (120.92.163.246)
+Host is up (0.0053s latency).
+Other addresses for App.bilibili.com (not scanned): 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 119.3.33.86 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 106.75.240.150 120.92.174.135 120.92.218.109
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for app-blue.bilibili.com (101.89.125.211) CDN
+Host is up (0.0044s latency).
+Other addresses for app-blue.bilibili.com (not scanned): 101.89.125.212 101.89.125.213 101.89.125.214 101.89.125.215 101.89.125.216 101.89.125.217 101.89.125.218
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+843/tcp  open  unknown
+1935/tcp open  rtmp
+
+Nmap scan report for baidu.bilibili.com (106.120.159.70)
+Host is up (0.032s latency).
+Other addresses for baidu.bilibili.com (not scanned): 220.181.33.93
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bangumi.bilibili.com (120.92.174.135)
+Host is up (0.0076s latency).
+Other addresses for bangumi.bilibili.com (not scanned): 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 119.3.33.86 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 106.75.240.150
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for big.bilibili.com (106.75.240.150)
+Host is up (0.0053s latency).
+Other addresses for big.bilibili.com (not scanned): 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for bigfun.bilibili.com (101.69.121.120)
+Host is up (0.010s latency).
+Other addresses for bigfun.bilibili.com (not scanned): 101.69.121.89 101.71.72.212
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for bilibili.com (106.75.240.122)
+Host is up (0.0062s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bp.bilibili.com (101.69.121.89)
+Host is up (0.010s latency).
+Other addresses for bp.bilibili.com (not scanned): 101.71.72.212 101.69.121.120
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for broadcast.chat.bilibili.com (120.92.217.153)
+Host is up (0.0052s latency).
+Other addresses for broadcast.chat.bilibili.com (not scanned): 120.92.219.40 120.92.150.127 120.92.150.209 120.92.150.90 120.92.150.212 120.92.150.125
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   closed http
+443/tcp  open   https
+843/tcp  open   unknown
+8090/tcp closed unknown
+
+Nmap scan report for broadcastlv.chat.bilibili.com (120.92.158.137)
+Host is up (0.0050s latency).
+Other addresses for broadcastlv.chat.bilibili.com (not scanned): 120.92.78.57 120.92.112.150 120.92.144.250
+Not shown: 698 closed ports, 296 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for bvpn.bilibili.com (121.46.231.68)
+Host is up (0.0056s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE
+25/tcp   filtered smtp
+80/tcp   open     http
+85/tcp   open     mit-ml-dev
+100/tcp  open     newacct
+443/tcp  open     https
+800/tcp  open     mdbs_daemon
+7443/tcp open     oracleas-https
+8000/tcp open     http-alt
+8001/tcp open     vcom-tunnel
+9000/tcp open     cslistener
+
+Nmap scan report for bw.bilibili.com (106.75.240.94)
+Host is up (0.0051s latency).
+Other addresses for bw.bilibili.com (not scanned): 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for club.bilibili.com (120.92.141.155)
+Host is up (0.0050s latency).
+Other addresses for club.bilibili.com (not scanned): 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for comment.bilibili.com (119.3.65.116)
+Host is up (0.0070s latency).
+Other addresses for comment.bilibili.com (not scanned): 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for data.bilibili.com (121.46.248.94)
+Host is up (0.0050s latency).
+Other addresses for data.bilibili.com (not scanned): 61.164.210.207
+Not shown: 897 closed ports
+PORT      STATE    SERVICE
+25/tcp    filtered smtp
+33/tcp    open     dsp
+80/tcp    open     http
+81/tcp    open     hosts2-ns
+82/tcp    open     xfer
+84/tcp    open     ctf
+85/tcp    open     mit-ml-dev
+88/tcp    open     kerberos-sec
+89/tcp    open     su-mit-tg
+90/tcp    open     dnsix
+111/tcp   open     rpcbind
+443/tcp   open     https
+444/tcp   open     snpp
+800/tcp   open     mdbs_daemon
+808/tcp   open     ccproxy-http
+888/tcp   open     accessbuilder
+999/tcp   open     garcon
+1024/tcp  open     kdm
+1065/tcp  open     syscomlan
+1066/tcp  open     fpo-fns
+1080/tcp  open     socks
+1085/tcp  open     webobjects
+1086/tcp  open     cplscrambler-lg
+1443/tcp  open     ies-lm
+1723/tcp  open     pptp
+1863/tcp  open     msnp
+1935/tcp  open     rtmp
+2000/tcp  open     cisco-sccp
+2002/tcp  open     globe
+2005/tcp  open     deslogin
+2008/tcp  open     conf
+2013/tcp  open     raid-am
+2020/tcp  open     xinupageserver
+2030/tcp  open     device2
+2033/tcp  open     glogger
+2323/tcp  open     3d-nfsd
+3000/tcp  open     ppp
+3011/tcp  open     trusted-web
+3013/tcp  open     gilatskysurfer
+3030/tcp  open     arepa-cas
+3031/tcp  open     eppc
+4443/tcp  open     pharos
+4445/tcp  open     upnotifyp
+4899/tcp  open     radmin
+4900/tcp  open     hfcs
+5001/tcp  open     commplex-link
+5003/tcp  open     filemaker
+5033/tcp  open     unknown
+5222/tcp  open     xmpp-client
+5555/tcp  open     freeciv
+6000/tcp  open     X11
+6001/tcp  open     X11:1
+6005/tcp  open     X11:5
+6666/tcp  open     irc
+6699/tcp  open     napster
+7000/tcp  open     afs3-fileserver
+7001/tcp  open     afs3-callback
+7002/tcp  open     afs3-prserver
+7004/tcp  open     afs3-kaserver
+7007/tcp  open     afs3-bos
+7070/tcp  open     realserver
+7777/tcp  open     cbt
+7778/tcp  open     interwise
+8000/tcp  open     http-alt
+8001/tcp  open     vcom-tunnel
+8002/tcp  open     teradataordbms
+8009/tcp  open     ajp13
+8010/tcp  open     xmpp
+8011/tcp  open     unknown
+8022/tcp  open     oa-system
+8080/tcp  open     http-proxy
+8081/tcp  open     blackice-icecap
+8082/tcp  open     blackice-alerts
+8083/tcp  open     us-srv
+8086/tcp  open     d-s-n
+8088/tcp  open     radan-http
+8089/tcp  open     unknown
+8090/tcp  open     unknown
+8093/tcp  open     unknown
+8180/tcp  open     unknown
+8443/tcp  open     https-alt
+8888/tcp  open     sun-answerbook
+9000/tcp  open     cslistener
+9001/tcp  open     tor-orport
+9002/tcp  open     dynamid
+9009/tcp  open     pichat
+9010/tcp  open     sdr
+9080/tcp  open     glrpc
+9090/tcp  open     zeus-admin
+9100/tcp  open     jetdirect
+9101/tcp  open     jetdirect
+9110/tcp  open     unknown
+9200/tcp  open     wap-wsp
+9500/tcp  open     ismserver
+9900/tcp  open     iua
+9998/tcp  open     distinct32
+9999/tcp  open     abyss
+10000/tcp open     snet-sensor-mgmt
+10002/tcp open     documentum
+12345/tcp open     netbus
+15000/tcp open     hydap
+20000/tcp open     dnp
+20031/tcp open     unknown
+
+Nmap scan report for d.bilibili.com (120.92.168.13)
+Host is up (0.0045s latency).
+Other addresses for d.bilibili.com (not scanned): 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for img.bilibili.com (101.226.26.227)
+Host is up (0.0046s latency).
+Other addresses for img.bilibili.com (not scanned): 101.226.26.228 101.226.26.229 101.226.26.230 101.226.26.231 101.226.26.232 101.226.26.233 101.226.26.226
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+843/tcp  open  unknown
+1935/tcp open  rtmp
+
+Nmap scan report for inter.comment.bilibili.com (47.91.203.246)
+Host is up (0.52s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ir.bilibili.com (23.201.250.5)
+Host is up (0.27s latency).
+rDNS record for 23.201.250.5: a23-201-250-5.deploy.static.akamaitechnologies.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ks-live-dmcmt-bj6-pm-01.chat.bilibili.com (120.92.78.57)
+Host is up (0.037s latency).
+Not shown: 696 closed ports, 299 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+9100/tcp open  jetdirect
+
+Nmap scan report for ks-live-dmcmt-bj6-pm-02.chat.bilibili.com (120.92.112.150)
+Host is up (0.034s latency).
+Not shown: 695 closed ports, 299 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for ks-live-dmcmt-sh2-pm-01.chat.bilibili.com (120.92.144.250)
+Host is up (0.0055s latency).
+Not shown: 698 closed ports, 296 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for live-trace.bilibili.com (120.92.218.109)
+Host is up (0.0060s latency).
+Other addresses for live-trace.bilibili.com (not scanned): 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for lvyou.bilibili.com (106.75.240.15)
+Host is up (0.0049s latency).
+Other addresses for lvyou.bilibili.com (not scanned): 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for mail.bilibili.com (121.43.184.213)
+Host is up (0.012s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   filtered smtp
+80/tcp   open     http
+111/tcp  open     rpcbind
+9100/tcp open     jetdirect
+
+Nmap scan report for message.bilibili.com (119.3.65.164)
+Host is up (0.0074s latency).
+Other addresses for message.bilibili.com (not scanned): 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188
+rDNS record for 119.3.65.164: ecs-119-3-65-164.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pbiligame.bilibili.com (120.92.162.180)
+Host is up (0.0055s latency).
+Other addresses for pbiligame.bilibili.com (not scanned): 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for player.bilibili.com (101.89.125.212)
+Host is up (0.0043s latency).
+Other addresses for player.bilibili.com (not scanned): 101.89.125.213 101.89.125.214 101.89.125.215 101.89.125.216 101.89.125.217 101.89.125.218 101.89.125.211
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+843/tcp  open  unknown
+1935/tcp open  rtmp
+
+Nmap scan report for secure.bilibili.com (101.71.72.212)
+Host is up (0.012s latency).
+Other addresses for secure.bilibili.com (not scanned): 101.69.121.120 101.69.121.89
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for service.bilibili.com (111.231.124.91)
+Host is up (0.0023s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for short.bilibili.com (110.76.40.240)
+Host is up (0.0091s latency).
+Not shown: 985 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   filtered smtp
+53/tcp   open     domain
+80/tcp   open     http
+81/tcp   open     hosts2-ns
+110/tcp  open     pop3
+143/tcp  open     imap
+443/tcp  open     https
+873/tcp  open     rsync
+993/tcp  open     imaps
+995/tcp  open     pop3s
+1723/tcp open     pptp
+2000/tcp open     cisco-sccp
+3306/tcp open     mysql
+9100/tcp open     jetdirect
+
+Nmap scan report for sitemap.bilibili.com (58.220.29.49)
+Host is up (0.011s latency).
+Not shown: 986 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+88/tcp   closed kerberos-sec
+111/tcp  open   rpcbind
+443/tcp  closed https
+843/tcp  closed unknown
+873/tcp  closed rsync
+1935/tcp closed rtmp
+3306/tcp closed mysql
+8011/tcp closed unknown
+8080/tcp closed http-proxy
+8090/tcp closed unknown
+8443/tcp closed https-alt
+8994/tcp closed unknown
+9100/tcp open   jetdirect
+
+Nmap scan report for tx-bj4-live-comet-01.chat.bilibili.com (62.234.173.147)
+Host is up (0.034s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-bj4-live-comet-02.chat.bilibili.com (62.234.202.242)
+Host is up (0.036s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-bj4-live-comet-03.chat.bilibili.com (62.234.213.204)
+Host is up (0.037s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-bj4-live-comet-04.chat.bilibili.com (62.234.171.161)
+Host is up (0.033s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-bj4-live-comet-05.chat.bilibili.com (152.136.38.219)
+Host is up (0.036s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-gz3-live-comet-01.chat.bilibili.com (134.175.51.44)
+Host is up (0.030s latency).
+Not shown: 699 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-gz3-live-comet-02.chat.bilibili.com (134.175.60.48)
+Host is up (0.029s latency).
+Not shown: 699 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-gz3-live-comet-03.chat.bilibili.com (134.175.32.151)
+Host is up (0.029s latency).
+Not shown: 699 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-live-dmcmt-fra-01.chat.bilibili.com (49.51.134.82)
+Host is up (0.26s latency).
+Not shown: 689 closed ports, 306 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+
+Nmap scan report for tx-live-dmcmt-sv-01.chat.bilibili.com (49.51.37.200)
+Host is up (0.14s latency).
+Not shown: 697 closed ports, 298 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+
+Nmap scan report for tx-live-dmcmt-tor-01.chat.bilibili.com (45.113.70.196)
+Host is up (0.22s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   closed http
+443/tcp  closed https
+3389/tcp open   ms-wbt-server
+
+Nmap scan report for tx-sh3-live-comet-01.chat.bilibili.com (212.64.95.168)
+Host is up (0.0040s latency).
+Not shown: 699 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-sh3-live-comet-02.chat.bilibili.com (172.81.242.32)
+Host is up (0.0039s latency).
+Not shown: 699 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-sh3-live-comet-03.chat.bilibili.com (172.81.242.35)
+Host is up (0.0042s latency).
+Not shown: 699 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-sh3-live-comet-04.chat.bilibili.com (212.64.67.135)
+Host is up (0.0041s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for tx-sh3-live-comet-05.chat.bilibili.com (212.64.48.11)
+Host is up (0.0040s latency).
+Not shown: 700 closed ports, 297 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+843/tcp open  unknown
+
+Nmap scan report for apix.bilibili.com (120.92.143.168)
+Host is up (0.0040s latency).
+Other addresses for apix.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for app.bilibili.com (106.75.240.128)
+Host is up (0.0059s latency).
+Other addresses for app.bilibili.com (not scanned): 106.75.240.94 119.3.33.86 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 106.75.240.150 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for archive.api.bilibili.com (119.3.70.188)
+Host is up (0.0090s latency).
+Other addresses for archive.api.bilibili.com (not scanned): 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103
+rDNS record for 119.3.70.188: ecs-119-3-70-188.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bml.bilibili.com (106.75.240.103)
+Host is up (0.0053s latency).
+Other addresses for bml.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for campus.bilibili.com (120.92.147.239)
+Host is up (0.0050s latency).
+Other addresses for campus.bilibili.com (not scanned): 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for chat.bilibili.com (120.92.158.137)
+Host is up (0.0049s latency).
+Other addresses for chat.bilibili.com (not scanned): 120.92.78.57 120.92.112.150 120.92.144.250
+Not shown: 698 closed ports, 296 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for comic.bilibili.com (119.3.33.86)
+Host is up (0.0075s latency).
+Other addresses for comic.bilibili.com (not scanned): 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116
+rDNS record for 119.3.33.86: ecs-119-3-33-86.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for elec.bilibili.com (120.92.163.246)
+Host is up (0.0052s latency).
+Other addresses for elec.bilibili.com (not scanned): 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for game.bilibili.com (101.69.121.120)
+Host is up (0.011s latency).
+Other addresses for game.bilibili.com (not scanned): 101.69.121.89 101.71.72.212
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for interface.bilibili.com (120.92.168.13)
+Host is up (0.0049s latency).
+Other addresses for interface.bilibili.com (not scanned): 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for live.bilibili.com (120.92.168.51)
+Host is up (0.0048s latency).
+Other addresses for live.bilibili.com (not scanned): 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 119.3.33.86 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 106.75.240.150 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for livecmt-1.bilibili.com (120.92.144.250)
+Host is up (0.0057s latency).
+Other addresses for livecmt-1.bilibili.com (not scanned): 120.92.158.137 120.92.78.57 120.92.112.150
+Not shown: 698 closed ports, 296 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for livecmt-2.bilibili.com (120.92.78.57)
+Host is up (0.035s latency).
+Other addresses for livecmt-2.bilibili.com (not scanned): 120.92.158.137 120.92.112.150 120.92.144.250
+Not shown: 696 closed ports, 299 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+9100/tcp open  jetdirect
+
+Nmap scan report for live-feed.bilibili.com (120.92.174.135)
+Host is up (0.0061s latency).
+Other addresses for live-feed.bilibili.com (not scanned): 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pay.bilibili.com (120.92.218.109)
+Host is up (0.0057s latency).
+Other addresses for pay.bilibili.com (not scanned): 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for security.bilibili.com (120.92.162.180)
+Host is up (0.0058s latency).
+Other addresses for security.bilibili.com (not scanned): 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for show.bilibili.com (101.89.125.212)
+Host is up (0.0048s latency).
+Other addresses for show.bilibili.com (not scanned): 101.89.125.213 101.89.125.214 101.89.125.215 101.89.125.216 101.89.125.217 101.89.125.218 101.89.125.211
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+843/tcp  open  unknown
+1935/tcp open  rtmp
+
+Nmap scan report for space.bilibili.com (106.75.240.94)
+Host is up (0.0053s latency).
+Other addresses for space.bilibili.com (not scanned): 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for static-s.bilibili.com (101.69.121.89)
+Host is up (0.0099s latency).
+Other addresses for static-s.bilibili.com (not scanned): 101.71.72.212 101.69.121.120
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for vip.bilibili.com (106.75.240.150)
+Host is up (0.0051s latency).
+Other addresses for vip.bilibili.com (not scanned): 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for www.bilibili.com (119.3.65.164)
+Host is up (0.0069s latency).
+Other addresses for www.bilibili.com (not scanned): 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 106.75.240.128 120.92.143.168 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188
+rDNS record for 119.3.65.164: ecs-119-3-65-164.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bbq.bilibili.com (120.92.143.168)
+Host is up (0.0044s latency).
+Other addresses for bbq.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bmall.bilibili.com (106.75.240.128)
+Host is up (0.0049s latency).
+Other addresses for bmall.bilibili.com (not scanned): 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for captcha.bilibili.com (106.75.240.103)
+Host is up (0.0057s latency).
+Other addresses for captcha.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for info.bilibili.com (101.69.121.120)
+Host is up (0.010s latency).
+Other addresses for info.bilibili.com (not scanned): 101.69.121.89 101.71.72.212
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for ks-live-dmcmt-sh2-pm-03.chat.bilibili.com (120.92.158.137)
+Host is up (0.0049s latency).
+Not shown: 698 closed ports, 296 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+843/tcp  open  unknown
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for link.bilibili.com (120.92.147.239)
+Host is up (0.0044s latency).
+Other addresses for link.bilibili.com (not scanned): 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for m.bilibili.com (119.3.33.86)
+Host is up (0.0070s latency).
+Other addresses for m.bilibili.com (not scanned): 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116
+rDNS record for 119.3.33.86: ecs-119-3-33-86.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for member.bilibili.com (120.92.163.246)
+Host is up (0.0055s latency).
+Other addresses for member.bilibili.com (not scanned): 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 120.92.218.109 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 106.75.240.94
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prop.bilibili.com (119.3.70.188)
+Host is up (0.0072s latency).
+Other addresses for prop.bilibili.com (not scanned): 119.3.65.164
+rDNS record for 119.3.70.188: ecs-119-3-70-188.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for qsmy.bilibili.com (120.92.168.13)
+Host is up (0.0049s latency).
+Other addresses for qsmy.bilibili.com (not scanned): 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for s.search.bilibili.com (120.92.218.109)
+Host is up (0.0057s latency).
+Other addresses for s.search.bilibili.com (not scanned): 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for vc.bilibili.com (120.92.168.51)
+Host is up (0.0053s latency).
+Other addresses for vc.bilibili.com (not scanned): 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cm.bilibili.com (106.75.240.128)
+Host is up (0.0055s latency).
+Other addresses for cm.bilibili.com (not scanned): 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for h.bilibili.com (120.92.143.168)
+Host is up (0.0047s latency).
+Other addresses for h.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for Live.bilibili.com (106.75.240.103)
+Host is up (0.0050s latency).
+Other addresses for Live.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 106.75.240.150 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 119.3.33.86 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for passport.bilibili.com (120.92.147.239)
+Host is up (0.0046s latency).
+Other addresses for passport.bilibili.com (not scanned): 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pictures.bilibili.com (101.69.121.120)
+Host is up (0.011s latency).
+Other addresses for pictures.bilibili.com (not scanned): 101.69.121.89 101.71.72.212
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for tb.bilibili.com (119.3.33.86)
+Host is up (0.0074s latency).
+Other addresses for tb.bilibili.com (not scanned): 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116
+rDNS record for 119.3.33.86: ecs-119-3-33-86.compute.hwclouds-dns.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for hd.bilibili.com (106.75.240.128)
+Host is up (0.0050s latency).
+Other addresses for hd.bilibili.com (not scanned): 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for mall.bilibili.com (120.92.143.168)
+Host is up (0.0060s latency).
+Other addresses for mall.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for manga.bilibili.com (106.75.240.103)
+Host is up (0.0053s latency).
+Other addresses for manga.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for miniapp.bilibili.com (120.92.143.168)
+Host is up (0.0046s latency).
+Other addresses for miniapp.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for moe.bilibili.com (106.75.240.103)
+Host is up (0.0052s latency).
+Other addresses for moe.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for news.bilibili.com (106.75.240.103)
+Host is up (0.0049s latency).
+Other addresses for news.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for search.bilibili.com (120.92.143.168)
+Host is up (0.0059s latency).
+Other addresses for search.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for t.bilibili.com (106.75.240.103)
+Host is up (0.0056s latency).
+Other addresses for t.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+Nmap scan report for yoo.bilibili.com (120.92.143.168)
+Host is up (0.0057s latency).
+Other addresses for yoo.bilibili.com (not scanned): 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15 106.75.240.103 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for zb.bilibili.com (106.75.240.103)
+Host is up (0.0054s latency).
+Other addresses for zb.bilibili.com (not scanned): 119.3.70.188 119.3.65.164 119.3.65.116 119.3.33.86 120.92.174.135 120.92.218.109 120.92.163.246 120.92.162.180 120.92.141.155 120.92.168.51 120.92.147.239 120.92.168.13 120.92.143.168 106.75.240.128 106.75.240.94 106.75.240.150 106.75.240.15
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+25/tcp  filtered smtp
+80/tcp  open     http
+443/tcp open     https
+
+# Nmap done at Mon Aug  5 20:37:59 2019 -- 109 IP addresses (104 hosts up) scanned in 7557.90 seconds
